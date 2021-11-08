@@ -42,6 +42,22 @@ Some potential concerns with the agile methodology is that it is difficult to ca
 
 ## Definition of the business need
 ### Problem definition
+#### Clients
+London City Hall & the London Urban Forest Partnership
+
+#### Context
+The Mayor of London, Sadiq Khan, has led various grants to help increase greenery and canopy cover in London. Some examples include the £12 billion Greener City fund, which funded tree planting, green infrastructure projects, creating urban forests, and community engagement projects to take place from 2016-2021, as well as the similar but smaller scale £1.2 million Grow Back Greener fund (src) and £4 million Green and Resilient Spaces fund (src) for projects taking place from 2022-2024. These grants are part of the Mayor’s London Environment Strategy to increase tree canopy cover to over 50% by 2050 (src) as “trees and woodlands make London a healthier, more attractive place to live, and help combat climate change and air pollution”(src). Currently, the London City Hall works with a network of organizations, called the London Urban Forest Partnership, that protect and manage the trees in London boroughs. 
+
+The London City Hall’s current method of planting trees is a combination of grant projects and government-funded street trees. Organizations in the London Urban Forest Partnership are responsible for maintaining these trees after they are planted. Tree maintenance (e.g. trimming and pruning) depend on the tree’s age, distance from property, species, health, and other environmental factors (src). For instance, younger trees need pruning every 2-3 years to encourage proper growth and extend lifetime while mature trees only need it every 3-5 years (src). Currently, each London borough has its own maintenance team and spends time, money, and infrastructure to come up with an optimal approach to tree maintenance in their own borough. 
+
+#### Problem Statement
+Tree planting and maintenance budgets are “often an easy target at times of financial pressure” (src). This is an inhibiting factor to London Mayor Sa​diq Khan’s goal to increase the amount of greenery in London by 2050. A potential solution to this issue would be to invest in a centralized, optimized, data-driven tree planting and maintenance web service provided to all London boroughs, which would decrease marginal costs in the long run and improve efficiency of tree maintenance. 
+
+#### Benefits of the Project
+Since the data on the trees in London boroughs is already centralized, the London City Hall can provide a web-app-as-a-service to its partners in the London Urban Forest Partnership that would eliminate the need for borough-specific data analysis and strategy teams. Instead of each borough individually managing when and where to send its routine maintenance and health checkup teams, the web app can provide automated suggestions to indicate what services are needed based on tree age and species.
+
+#### Limitations & Potential Extensions of the Project
+Since the London Borough tree data is updated annually, and only includes descriptive data about the trees, maintenance needed on a case-by-case basis, such as fallen branches, fallen trees, branches blocking residential windows, pest outbreaks, etc. cannot be managed by this centralized system given the data provided. However, since one of the Mayor’s goals in the London Greener City fund was to increase the amount of data collected about the trees in London (src), a potential extension of this project could be a feature in the web-app for the community to report tree maintenance requests and for those to be added into the recommendation system/scheduling aspect. 
 
 ### Target audience
 
