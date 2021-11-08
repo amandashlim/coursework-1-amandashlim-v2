@@ -2,8 +2,7 @@
 
 ## Technical information
 ### Repository URL
-Please add the URL to your repository below, then delete this instruction text.
-[Repository]()
+[Repository](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/master/comp0035_coursework1.md)
 
 ### Set-up instructions
 
