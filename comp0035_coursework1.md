@@ -18,7 +18,7 @@ This project using the borough tree list dataset (referred to as “trees datase
 Given this scenario, one can compare the commonly used methodologies in a table.
 
 ![image](https://drive.google.com/uc?export=view&id=1MeLmq0VznjCEH2e0xEkawLzl5SROVWPi)
-_NOTE: Image rather than markdown used for coloured background cells since CSS not allowed on GitHub_
+_NOTE: Image rather than markdown used for coloured background cells since CSS not allowed on GitHub. Please allow time for images to load._
 
 I decided to select the **scrum methodology** for my project based on the above selection criteria and prior experience using it in my Summer internship at Deutsche Bank. Furthermore, I am familiar with technologies used to manage development projects that use an agile approach. Using Jira (ticket task manager) and Bitbucket (like GitHub) allows the sprint tasks to be displayed to all team members, categorized, and even linked to specific branches, commits, builds, etc.
 
