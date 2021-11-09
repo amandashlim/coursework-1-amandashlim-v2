@@ -62,6 +62,11 @@ _Note: While the London City Hall is listed as a client, there is no persona as 
 - Based on their age and date of planting, when are the trees due for pruning? When are they due for routine health checks?
 
 ### Suggested web app
+#### Goals of the Project
+1. Create a centralized, easy to understand service for upper management of tree planting/maintenance organizations across London boroughs
+2. Reduce marginalized costs of tree planting and maintenance services across London boroughs
+3. Optimize usage and allocation of resources such as gas, labour, time, trimming/pruning equipment, saplings/seeds, fertilizer, pesticide, etc.
+
 
 ## Data preparation and exploration
 ### Data preparation
