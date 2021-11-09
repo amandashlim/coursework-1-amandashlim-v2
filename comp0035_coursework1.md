@@ -19,15 +19,14 @@ This project using the borough tree list dataset (referred to as “trees datase
 Given this scenario, one can compare the commonly used methodologies in a table.
 
 ![image](https://drive.google.com/uc?export=view&id=1MeLmq0VznjCEH2e0xEkawLzl5SROVWPi)
-_*Image rather than markdown used for coloured background cells since CSS not allowed on GitHub_
+_NOTE: Image rather than markdown used for coloured background cells since CSS not allowed on GitHub_
 
 I decided to select the **scrum methodology** for my project based on the above selection criteria and prior experience using it in my Summer internship at Deutsche Bank. Furthermore, I am familiar with technologies used to manage development projects that use an agile approach. Using Jira (ticket task manager) and Bitbucket (like GitHub) allows the sprint tasks to be displayed to all team members, categorized, and even linked to specific branches, commits, builds, etc.
 
 ![image](https://atlassianblog.wpengine.com/wp-content/uploads/2017/12/create-branch-in-jira-blog.png)
 
 #### Potential Concerns
-Some potential concerns with the agile methodology is that it is difficult to catch up on tasks once the sprint is over. In my experience at DB, there were often times where tickets would get lost in the backlog while team members had to move onto the next sprint. Since my team at DB was bigger and we were managing multiple different projects, we could not afford for all team members to stay behind a sprint in this case. Having time constraints for each sprint poses the concern that the project may get disorganized if team members are not able to complete all their tasks in time. Despite this, I still think that the frequent check-ins that the agile approach allows is best for managing a development project around university students’ lives. Furthermore, it is possible that all team members could stay behind a couple days before starting the next sprint as we would all be working on the same project with the same deadline. 
-
+Some potential concerns with the agile methodology is that it is difficult to catch up on tasks once the sprint is over. In my experience at DB, there were often times where tickets would get lost in the backlog while team members had to move onto the next sprint. Since my team at DB was bigger and we were managing multiple different projects, we could not afford for all team members to stay behind a sprint in this case. Having time constraints for each sprint poses the concern that the project may get disorganized if team members are not able to complete all their tasks in time. Despite this, I still think that the frequent check-ins that the agile approach allows is best for managing a development project around university students’ lives. Furthermore, it is possible that all team members could stay behind a couple days before starting the next sprint as we would all be working on the same project with the same deadline.
 
 ## Definition of the business need
 ### Problem definition
@@ -49,7 +48,11 @@ Since the data on the trees in London boroughs is already centralized, the Londo
 Since the London Borough tree data is updated annually, and only includes descriptive data about the trees, maintenance needed on a case-by-case basis, such as fallen branches, fallen trees, branches blocking residential windows, pest outbreaks, etc. cannot be managed by this centralized system. However, since one of the Mayor’s goals in the London Greener City fund was to increase the amount of data collected about the trees in London (src), a potential extension of this project could be a feature in the web-app for the community to report tree maintenance requests and for those to be added into the recommendation system/scheduling aspect. 
 
 ### Target audience
+The target audience would be upper-management of the London Urban Forest Partnership organizations, such as Molly the Manager as described in the persona below.
 
+![image](https://drive.google.com/uc?export=view&id=1p16MqGaY1RYbI22Mi02b6ulL59hG0ysT)
+
+_Note: While the London City Hall is listed as a client, there is no persona as the service would be made for the London City Hall to provide to the partner organizations. Therefore, they are not actually using the service themselves but still do benefit monetarily from reduced costs._ 
 
 ### Questions to be answered using the dataset
 
