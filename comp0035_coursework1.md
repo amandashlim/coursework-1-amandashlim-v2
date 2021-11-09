@@ -11,7 +11,6 @@ Scrum Methodology
 ![image](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/scrumorg-scrum-framework-3000.png)
 
 ### Selection criteria and justification of selection
-
 #### Hypothetical Project Scenario
 This project using the borough tree list dataset (referred to as “trees dataset” throughout this repo) involves a group of 4-5 UCL students with some data science/computer science experience who would create a dashboarding web app for The London City Hall. The web app would include multiple dashboards to manage the planting and maintenance of London Borough trees (further explanation under “Definition of Business Need”). 
 
@@ -48,13 +47,19 @@ Since the data on the trees in London boroughs is already centralized, the Londo
 Since the London Borough tree data is updated annually, and only includes descriptive data about the trees, maintenance needed on a case-by-case basis, such as fallen branches, fallen trees, branches blocking residential windows, pest outbreaks, etc. cannot be managed by this centralized system. However, since one of the Mayor’s goals in the London Greener City fund was to increase the amount of data collected about the trees in London (src), a potential extension of this project could be a feature in the web-app for the community to report tree maintenance requests and for those to be added into the recommendation system/scheduling aspect. 
 
 ### Target audience
-The target audience would be upper-management of the London Urban Forest Partnership organizations, such as Molly the Manager as described in the persona below.
+The target audience for this service would be the upper-management of the London Urban Forest Partnership organizations, such as Molly the Manager as described in the persona below.
 
 ![image](https://drive.google.com/uc?export=view&id=1p16MqGaY1RYbI22Mi02b6ulL59hG0ysT)
 
 _Note: While the London City Hall is listed as a client, there is no persona as the service would be made for the London City Hall to provide to the partner organizations. Therefore, they are not actually using the service themselves but still do benefit monetarily from reduced costs._ 
 
 ### Questions to be answered using the dataset
+- What is the distribution of the different species of trees?
+- What is the distribution of the different ages of trees?
+- According to their species and age, what trees are likely to wilt/die soon?
+- Aesthetics aside, having the same type of tree planted in the same area (e.g. as street trees could lead to more optimized trips since, if planted at the same time, all the trees in one area in theory would require routine maintenance at the same time. In the areas where new trees could be planted, what species of tree should be planted?
+- Where are new trees being planted (geographically)?
+- Based on their age and date of planting, when are the trees due for pruning? When are they due for routine health checks?
 
 ### Suggested web app
 
