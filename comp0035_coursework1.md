@@ -75,8 +75,8 @@ _Note: While the London City Hall is listed as a client, there is no persona as 
 
 ### Prepared data set
 Please add names of your data set files in this repository below, then delete this instruction text.
-[Original data set]()
-[Prepared data set]()
+[Original data set](Borough_tree_list_2021July)
+[Prepared data set](trees_cleaned.csv)
 
 ### Data exploration
 
