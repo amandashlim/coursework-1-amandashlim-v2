@@ -4,16 +4,6 @@
 ### Repository URL
 [Repository](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/master/comp0035_coursework1.md)
 
-### Set-up instructions
-
-Assume that requirements will be installed from requirements.txt.
-
-If you have used any libraries that require set-up beyond `pip install ...` then use this section to explain any set-up
-instructions to be followed to run your coursework.
-
-If the marker cannot execute your coursework they can't grade it!
-
-
 ## Selection of project methodology
 ### Methodology (or combination) selected
 Scrum Methodology
