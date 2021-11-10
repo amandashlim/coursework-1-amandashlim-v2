@@ -18,18 +18,17 @@ According to their species and age, what trees are likely to wilt/die soon?
 Where are new trees being planted (geographically)?
 Based on their age, when are the trees due for pruning?'''
 
-# SPECIES MAP
+# MAP BY SPECIES
 species_map = sb.FacetGrid(data=trees, hue='tree_name')
-plt.xticks(np.arange(min(trees['longitude']), max(trees['longitude'])+0.1, 0.001))
-# plt.yticks(np.arange(min(trees['latitude']), max(trees['latitude'])+0.1, 0.001))
-
-species_map.map(plt.scatter, 'longitude', 'latitude', s=0.0001).add_legend()
+species_map.map(plt.scatter, 'longitude', 'latitude', s=0.0005)
+plt.title("Map of London Trees by Species")
+plt.legend(markerscale=100, fontsize=3, title="Species of Tree")
 plt.show()
 
-# SPECIES BAR GRAPH
+# BAR GRAPH BY SPECIES COUNT
 
-# AGE MAP
+# MAP BY AGE
 
-# AGE BAR GRAPH
+# BAR GRAPH BY AGE
 
 # TREES DUE FOR PRUNING THIS YEAR
