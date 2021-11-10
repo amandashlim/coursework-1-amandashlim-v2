@@ -147,26 +147,53 @@ We assume that the tree is pruned when it was planted/loaded into the dataset. R
 ## Weekly progress reports
 Copy and paste from Moodle or use the following structure. Delete this instruction text.
 
+### Report 1
 What I did in the last week:
-- item
-- item
+- Went through the coursework specification
+- Opened the dataset
+- Set up GitHub, Git, and Pycharm
+- Brainstormed initial questions that could be answered with the data 
+- Thought of graphs that could be interesting to make.
 
 What I plan to do in the next week:
-- item
-- item
+- Draft problem statement
 
 Issues blocking my progress (state ‘None’ if there are no issues):
-- item
-- item
-
-### Report 1
+- None
 
 ### Report 2
+What I did in the last week:
+- Background research on tree planting and maintenance in London
+- Started drafting problem statement
+
+What I plan to do in the next week:
+- Finish problem statement
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+- Fell sick
 
 ### Report 3
+What I did in the last week:
+- Finished problem statement
+- Brainstormed potential persona
+
+What I plan to do in the next week:
+- Start preparing my dataset
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+- Still sick
 
 ### Report 4
+What I did in the last week:
+- Prepared data
+- Finished persona in note form
+- Finalized potential questions to answer from the data
+
+What I plan to do in the next week(s):
+- Finish coursework 1
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+- None
 
 ## References
-Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
-used to using in your course.
+
