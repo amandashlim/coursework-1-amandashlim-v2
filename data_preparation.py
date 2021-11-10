@@ -11,6 +11,11 @@ print(trees_nonprep.head())
 print(trees_nonprep.columns)
 print(trees_nonprep.info(verbose=True))
 
+# INVESTIGATE DATE RANGE OF DATASET
+min(trees['load_date'])
+max(trees['load_date'])
+trees['load_date'].unique() # Limited data to work with since there are only three dates where data has been updated
+
 # REMOVE UNECESSASRY COLUMNS ---
 # Drop less relevant columns or columns with repeated information and little data
 '''

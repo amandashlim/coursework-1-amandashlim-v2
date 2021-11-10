@@ -5,11 +5,6 @@ import seaborn as sb
 
 trees = pd.read_csv("trees_cleaned.csv")
 
-# CHANGE INT64 DATA TYPES TO DATETIME
-'''More convenient for visualizations later on'''
-trees['load_date'] = pd.to_datetime(trees['load_date'].astype(str), format='%Y-%m-%d')
-trees['updated'] = pd.to_datetime(trees['updated'].astype(str), format='%Y-%m-%d')
-
 '''
 What is the distribution of the different species of trees?
 What is the distribution of the different ages of trees?
@@ -57,5 +52,21 @@ plt.xlabel("Number of Trees")
 plt.show()
 
 # TREES PLANTED OVER TIME
+# change load_date from INT64 to datetime
+trees['load_date'] = pd.to_datetime(trees['load_date'].astype(str), format='%Y-%m-%d')
+
+# Create graph
+'''Graph is limited as we only have the year the trees were entered into the dataset rather than the actual date it was
+planted. A tree planted Jan 1st is practically a year older than a tree planted December 31st. There is also possibility
+that the tree was only added to the dataset that year rather than being planted that year. Year 2019 is also missing. '''
+time_bar = trees.load_date.value_counts().plot(kind="barh")
+plt.title("Count of Trees in London Boroughs Over Time")
+plt.xlabel("Number of Trees")
+plt.show()
+
+# Print exact values
+dates = trees.load_date.unique()
+[print(str(trees.load_date.value_counts().iloc[i]) + " trees in the dataset on " + str(dates[i])) for i in range(0,3)]
+
 
 # TREES DUE FOR PRUNING THIS YEAR
