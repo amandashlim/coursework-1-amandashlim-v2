@@ -80,8 +80,27 @@ _*This question cannot be directly answered with the data since there is limited
 [Data Exploration]()
 
 #### Map of London Borough Trees by Species
-
 ![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/37a9acfad72a912815fcff8fefad2fa83762e75d/exported_plots/1_map_by_species.png)
+
+#### Pie Chart of Percentages of Tree Species in London Boroughs
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/2_pie_by_species.png)
+
+#### Map of London Borough Trees by Age Group
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/3_map_by_age.png)
+
+#### Count of Trees in London Boroughs by Age Group
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/4_bar_by_age.png)
+
+#### Count of Trees in London Boroughs Over Time
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/5_bar_by_time.png)
+
+Graph is limited as we only have the year the trees were entered into the dataset rather than the actual date it was planted. A tree planted Jan 1st is practically a year older than a tree planted December 31st. There is also possibility that the tree was only added to the dataset that year rather than being planted that year. Year 2019 is also missing. 
+
+#### Approximate Prune Dates of Trees in London Boroughs
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/6_map_by_prune.png)
+
+We assume that the tree is pruned when it was planted/loaded into the dataset. Referenced https://www.ronstreeserviceandfirewood.com/how-often-should-i-have-my-trees-trimmed/ for pruning times by tree age. In practice, there would be further code that would use ML to determine what trees to prune in batches based on their recommended prune date. Limitations are that most of the trees have an unknown age group. Potential solutions would be to use linear regression to predict age  based on trunk diameter, canopy cover, species etc.
+
 
 ## Weekly progress reports
 Copy and paste from Moodle or use the following structure. Delete this instruction text.
