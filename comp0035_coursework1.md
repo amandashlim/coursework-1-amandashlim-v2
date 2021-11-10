@@ -107,6 +107,7 @@ There is much potential for improvements in the data quality about London boroug
 
 #### Mockup
 A potential mockup of the web app, using visualizations from data exploration where possible.
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/e0d76887e57ad5c2703269088e21e09a9d7bee72/images/mockup.png)
 
 ## Data preparation and exploration
 ### Data preparation
