@@ -102,9 +102,6 @@ Functional and non-functional requirements can be defined from this inspiration.
 - Dashboards must not take longer than 30 minutes to load.
 - The application must be easy to understand and use by a non-technical audience. For example, a new task button rather than having to edit the dataset from the backend.
 
-#### Potential Improvements
-There is much potential for improvements in the data quality about London borough trees, such as having accurate ages for the trees and exact planting dates down to the month or day. Improvements to this data would enhance the web app even more and further demand for an auto-refresh API.
-
 #### Mockup
 A potential mockup of the web app, using visualizations from data exploration where possible.
 ![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/e0d76887e57ad5c2703269088e21e09a9d7bee72/images/mockup.png)
