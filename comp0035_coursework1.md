@@ -79,6 +79,10 @@ _*This question cannot be directly answered with the data since there is limited
 
 [Data Exploration]()
 
+#### Map of London Borough Trees by Species
+
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/37a9acfad72a912815fcff8fefad2fa83762e75d/exported_plots/1_map_by_species.png)
+
 ## Weekly progress reports
 Copy and paste from Moodle or use the following structure. Delete this instruction text.
 
