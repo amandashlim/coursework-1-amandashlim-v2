@@ -8,7 +8,7 @@
 ### Methodology (or combination) selected
 Scrum Methodology
 
-![image](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/scrumorg-scrum-framework-3000.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/fba0ac4b2df012758dc0f263626aeacb7f5dfba7/images/scrum.png)
 
 ### Selection criteria and justification of selection
 #### Hypothetical Project Scenario
@@ -17,12 +17,12 @@ This project using the borough tree list dataset (referred to as “trees datase
 #### Selection Criteria & Justification of Selection
 Given this scenario, one can compare the commonly used methodologies in a table.
 
-![image](https://drive.google.com/uc?export=view&id=1MeLmq0VznjCEH2e0xEkawLzl5SROVWPi)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/fba0ac4b2df012758dc0f263626aeacb7f5dfba7/images/methodologies-comparison.png)
 _NOTE: Image rather than markdown used for coloured background cells since CSS not allowed on GitHub. Please allow time for images to load._
 
 I decided to select the **scrum methodology** for my project based on the above selection criteria and prior experience using it in my Summer internship at Deutsche Bank. Furthermore, I am familiar with technologies used to manage development projects that use an agile approach. Using Jira (ticket task manager) and Bitbucket (like GitHub) allows the sprint tasks to be displayed to all team members, categorized, and even linked to specific branches, commits, builds, etc.
 
-![image](https://atlassianblog.wpengine.com/wp-content/uploads/2017/12/create-branch-in-jira-blog.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/fba0ac4b2df012758dc0f263626aeacb7f5dfba7/images/jira.png)
 
 #### Potential Concerns
 Some potential concerns with the agile methodology is that it is difficult to catch up on tasks once the sprint is over. In my experience at DB, there were often times where tickets would get lost in the backlog while team members had to move onto the next sprint. Since my team at DB was bigger and we were managing multiple different projects, we could not afford for all team members to stay behind a sprint in this case. Having time constraints for each sprint poses the concern that the project may get disorganized if team members are not able to complete all their tasks in time. Despite this, I still think that the frequent check-ins that the agile approach allows is best for managing a development project around university students’ lives. Furthermore, it is possible that all team members could stay behind a couple days before starting the next sprint as we would all be working on the same project with the same deadline.
@@ -49,7 +49,7 @@ Since the London Borough tree data is updated annually, and only includes descri
 ### Target audience
 The target audience for this service would be the upper-management of the London Urban Forest Partnership organizations, such as Molly the Manager as described in the persona below.
 
-![image](https://drive.google.com/uc?export=view&id=1p16MqGaY1RYbI22Mi02b6ulL59hG0ysT)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/fba0ac4b2df012758dc0f263626aeacb7f5dfba7/images/persona.png)
 
 _Note: While the London City Hall is listed as a client, there is no persona as the service would be made for the London City Hall to provide to the partner organizations. Therefore, they are not actually using the service themselves but still do benefit monetarily from reduced costs._ 
 
@@ -72,13 +72,13 @@ _Personal Experience – Deutsche Bank_
 While it was not a web app, I helped develop an auto-refresh sanctions and embargoes and fraud alert dashboard in Tableau during my internship at Deutsche Bank. The process of receiving the new data, processing it into tables, and visualizing it on a dashboard under different dimensions would be the same for this project’s case with trees. 
 
 _Teaching Dashboard With Schedule_
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zoola.io%2Fdashboard-examples%2F&psig=AOvVaw1JjIUjqixkiSByCKIVN8vT&ust=1636637089523000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDi3rTyjfQCFQAAAAAdAAAAABAO)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/dashboard_ex1.png)
 
 _Project Management Dashboard_
-![image](https://www.projectmanager.com/wp-content/uploads/2020/06/track.jpg)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/dashboard_ex2.jpeg)
 
 _Project Status Dashboard_
-![image](https://www.clicdata.com/wp-content/uploads/2019/06/example-dashboard-014-1-931x1024.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/dashboard_ex3.png)
 
 Functional and non-functional requirements can be defined from this inspiration.
 
@@ -122,24 +122,24 @@ A potential mockup of the web app, using visualizations from data exploration wh
 [Data Exploration]()
 
 #### Map of London Borough Trees by Species
-![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/37a9acfad72a912815fcff8fefad2fa83762e75d/exported_plots/1_map_by_species.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/1_map_by_species.png)
 
 #### Pie Chart of Percentages of Tree Species in London Boroughs
-![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/2_pie_by_species.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/2_pie_by_species.png)
 
 #### Map of London Borough Trees by Age Group
-![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/3_map_by_age.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/3_map_by_age.png)
 
 #### Count of Trees in London Boroughs by Age Group
-![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/4_bar_by_age.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/4_bar_by_age.png)
 
 #### Count of Trees in London Boroughs Over Time
-![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/5_bar_by_time.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/5_bar_by_time.png)
 
 Graph is limited as we only have the year the trees were entered into the dataset rather than the actual date it was planted. A tree planted Jan 1st is practically a year older than a tree planted December 31st. There is also possibility that the tree was only added to the dataset that year rather than being planted that year. Year 2019 is also missing. 
 
 #### Approximate Prune Dates of Trees in London Boroughs
-![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/6_map_by_prune.png)
+![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/022e9ebe435eb7ae2e1e2e29f1902a2f4e067a86/images/6_map_by_prune.png)
 
 We assume that the tree is pruned when it was planted/loaded into the dataset. Referenced https://www.ronstreeserviceandfirewood.com/how-often-should-i-have-my-trees-trimmed/ for pruning times by tree age. In practice, there would be further code that would use ML to determine what trees to prune in batches based on their recommended prune date. Limitations are that most of the trees have an unknown age group. Potential solutions would be to use linear regression to predict age  based on trunk diameter, canopy cover, species etc.
 
