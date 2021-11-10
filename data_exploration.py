@@ -94,7 +94,7 @@ for i in range(len(trees)):
         due = "Data not available"  # For NA or undefined values
     due_prune.append(due)
 
-# Concatenate due_prune to trearrayes dataset
+# Concatenate due_prune to trees dataset
 trees['due_prune_date'] = due_prune
 
 # Graph on a map

@@ -66,6 +66,48 @@ _*This question cannot be directly answered with the data since there is limited
 2. Reduce marginalized costs of tree planting and maintenance services across London boroughs by eliminating the need for separate data analysis and strategy teams. 
 3. Optimize usage and allocation of resources such as gas, labour, time, trimming/pruning equipment, saplings/seeds, fertilizer, pesticide, etc.
 
+#### Similar Web Apps/Inspiration
+_Personal Experience – Deutsche Bank_
+
+While it was not a web app, I helped develop an auto-refresh sanctions and embargoes and fraud alert dashboard in Tableau during my internship at Deutsche Bank. The process of receiving the new data, processing it into tables, and visualizing it on a dashboard under different dimensions would be the same for this project’s case with trees. 
+
+_Teaching Dashboard With Schedule_
+![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zoola.io%2Fdashboard-examples%2F&psig=AOvVaw1JjIUjqixkiSByCKIVN8vT&ust=1636637089523000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDi3rTyjfQCFQAAAAAdAAAAABAO)
+
+_Project Management Dashboard_
+![image](https://www.projectmanager.com/wp-content/uploads/2020/06/track.jpg)
+
+_Project Status Dashboard_
+![image](https://www.clicdata.com/wp-content/uploads/2019/06/example-dashboard-014-1-931x1024.png)
+
+Functional and non-functional requirements can be defined from this inspiration.
+
+#### Functional Requirements
+- Have descriptive dashboard displays to overview the status of the trees in each borough, such as:
+  - Map of the ages of trees
+  - Map of where trees were planted most recently
+  - Pie chart of what species of trees there are and in what proportion
+- Have informative dashboard displays such as: 
+  - Suggested prune/trim dates of trees
+  - Suggested health checkup dates of trees (manual entry)
+  - Health of trees (manual entry)
+- Create recommended schedules based on suggested prune & health checkup dates
+- Create optimized truck route suggestions based on the schedule
+- Have the ability to add data manually and have dashboards refresh
+- Have the ability to add a task to the schedule directly, for instance if a tree fell down on a house today, that task could be added and the recommended schedule would update.
+
+#### Non-Functional Requirements
+- The application must support running on Windows and iOS as these are the most commonly used systems.
+- Dashboards must refresh automatically when data refreshes (possible using Tableau API).
+- Dashboards must not take longer than 30 minutes to load.
+- The application must be easy to understand and use by a non-technical audience. For example, a new task button rather than having to edit the dataset from the backend.
+
+#### Potential Improvements
+There is much potential for improvements in the data quality about London borough trees, such as having accurate ages for the trees and exact planting dates down to the month or day. Improvements to this data would enhance the web app even more and further demand for an auto-refresh API.
+
+#### Mockup
+A potential mockup of the web app, using visualizations from data exploration where possible.
+
 ## Data preparation and exploration
 ### Data preparation
 
@@ -100,7 +142,6 @@ Graph is limited as we only have the year the trees were entered into the datase
 ![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/6_map_by_prune.png)
 
 We assume that the tree is pruned when it was planted/loaded into the dataset. Referenced https://www.ronstreeserviceandfirewood.com/how-often-should-i-have-my-trees-trimmed/ for pruning times by tree age. In practice, there would be further code that would use ML to determine what trees to prune in batches based on their recommended prune date. Limitations are that most of the trees have an unknown age group. Potential solutions would be to use linear regression to predict age  based on trunk diameter, canopy cover, species etc.
-
 
 ## Weekly progress reports
 Copy and paste from Moodle or use the following structure. Delete this instruction text.
