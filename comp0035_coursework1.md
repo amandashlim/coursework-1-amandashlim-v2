@@ -196,4 +196,17 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 - None
 
 ## References
+City of London. 2020. “Tree Strategy.” City of London Services | Planning | Tree Strategy. https://www.cityoflondon.gov.uk/services/planning/planning-application-requirements/tree-strategy.
+
+Gomez, Jackie. 2019. “Why should I have my tree trimmed and how often?” B&B Tree & Landscapes. https://www.bbtreeandlandscaping.com/why-should-i-have-my-tree-trimmed-and-how-often.
+
+London Tree Officers Association. 2016. “Results of the 2016 LTOA survey looking at the changing face of tree management in response to central government austerity.” Tree Management in London Boroughs. https://www.ltoa.org.uk/resources/tree-management-in-london-boroughs.
+
+London Tree Officers Association. 2021. “London’s street trees could fall victim to budget cuts.” LTOA News. https://www.ltoa.org.uk/news/137-londons-street-trees-could-fall-victim-to-budget-cuts-assembly-told.
+
+Mayor of London. 2021. “Green and Resilient Spaces Fund.” London Assembly | Environment | Parks, green spaces, and biodiversity. https://www.london.gov.uk/what-we-do/environment/parks-green-spaces-and-biodiversity/green-and-resilient-spaces-fund.
+
+Mayor of London. 2021. “Greener City Fund.” London Assembly | Environment | Parks, green spaces, and biodiversity. https://www.london.gov.uk/what-we-do/environment/parks-green-spaces-and-biodiversity/greener-city-fund.
+
+Mayor of London. 2021. “Green Space Funding.” London Assembly | Environment | Parks, green spaces, and biodiversity. https://www.london.gov.uk/what-we-do/environment/parks-green-spaces-and-biodiversity/green-space-funding.
 
