@@ -99,7 +99,7 @@ Graph is limited as we only have the year the trees were entered into the datase
 #### Approximate Prune Dates of Trees in London Boroughs
 ![image](https://github.com/amandashlim/coursework-1-amandashlim-v2/blob/1f34cbaa25563bfebe399cf0867d0284abbbd666/exported_plots/6_map_by_prune.png)
 
-We assume that the tree is pruned when it was planted/loaded into the dataset. Referenced https://www.ronstreeserviceandfirewood.com/how-often-should-i-have-my-trees-trimmed/ for pruning times by tree age. In practice, there would be further code that would use ML to determine what trees to prune in batches based on their recommended prune date. Limitations are that most of the trees have an unknown age group. Potential solutions would be to use linear regression to predict age  based on trunk diameter, canopy cover, species etc.
+We assume that the tree is pruned when it was planted/loaded into the dataset. Referenced [this source] (https://www.ronstreeserviceandfirewood.com/how-often-should-i-have-my-trees-trimmed/ ) for pruning times by tree age. In practice, there would be further code that would use ML to determine what trees to prune in batches based on their recommended prune date. Limitations are that most of the trees have an unknown age group. Potential solutions would be to use linear regression to predict age  based on trunk diameter, canopy cover, species etc.
 
 
 ## Weekly progress reports
