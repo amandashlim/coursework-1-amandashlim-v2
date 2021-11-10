@@ -2,7 +2,6 @@
 import pandas as pd
 
 # Data from https://data.london.gov.uk/dataset/local-authority-maintained-trees
-# May need to pip install openpyxl
 # Needed to use excel format since could not upload .csv to GitHub due to file size
 trees_nonprep = pd.read_excel("Borough_tree_list_2021July.xlsx")
 
@@ -51,7 +50,7 @@ trees['tree_name'] = trees['tree_name'].fillna(value=trees['common_name'])
 
 # Check if any NA's are left
 trees['tree_name'].isna().unique()
-'''Returns all false so we successfully replaced all NA's'''
+'''Returns all false so we successfully replaced all NA's.'''
 
 # Remove all tree naming columns except tree_name
 trees = trees.drop(['gla_tree_name', 'taxon_name', 'common_name'], axis=1)

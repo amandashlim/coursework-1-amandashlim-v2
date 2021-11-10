@@ -54,19 +54,17 @@ The target audience for this service would be the upper-management of the London
 _Note: While the London City Hall is listed as a client, there is no persona as the service would be made for the London City Hall to provide to the partner organizations. Therefore, they are not actually using the service themselves but still do benefit monetarily from reduced costs._ 
 
 ### Questions to be answered using the dataset
-- What is the distribution of the different species of trees?
-- What is the distribution of the different ages of trees?
-- According to their species and age, what trees are likely to wilt/die soon?
-- Aesthetics aside, having the same type of tree planted in the same area (e.g. as street trees could lead to more optimized trips since, if planted at the same time, all the trees in one area in theory would require routine maintenance at the same time. In the areas where new trees could be planted, what species of tree should be planted?
-- Where are new trees being planted (geographically)?
-- Based on their age and date of planting, when are the trees due for pruning? When are they due for routine health checks?
+- Based on  their species and age, what trees are likely to wilt/die soon and need to be cut down/arranged to have a new tree planted?
+- Based on their age, when are the trees due for pruning?
+- When are the trees due for routine health checkups?*
+
+_*This question cannot be directly answered with the data since there is limited information on the health of the trees. However, there is potential for a feature where the web app users can manually enter when the last checkup of each tree was, and for the system to create visualizations that way._ 
 
 ### Suggested web app
 #### Goals of the Project
 1. Create a centralized, easy to understand service for upper management of tree planting/maintenance organizations across London boroughs
-2. Reduce marginalized costs of tree planting and maintenance services across London boroughs
+2. Reduce marginalized costs of tree planting and maintenance services across London boroughs by eliminating the need for separate data analysis and strategy teams. 
 3. Optimize usage and allocation of resources such as gas, labour, time, trimming/pruning equipment, saplings/seeds, fertilizer, pesticide, etc.
-
 
 ## Data preparation and exploration
 ### Data preparation

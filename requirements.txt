@@ -2,3 +2,6 @@ setuptools
 pandas
 numpy
 bcrypt
+openpyxl
+matplotlib
+seaborn
